@@ -18,40 +18,49 @@
 <!-- Här skapar jag en bodytagg och lägger in det visuella innehållet på hemsidan-->
 
 <body>
-    <!-- Här skapar jag upp en container med styling i cssför att få en snygg och centrerad layout-->
+    <!-- Här skapar jag upp en container med styling i css för att få en snygg och centrerad layout-->
     <div class="container">
+        <main> <!--Denna tagg informerar om huvudinnehållet på denna sida-->
+
         <div class="header">
-            <h1 class="vitheader">Petronella Bodzay</h1>
+           
+            <h1 class="vitheader">Petronella Bodzay</h1> <!--hemsidans huvudrubrik-->
         </div>
         <header>
 
 
-            <nav>
+            <nav><!--Här skapar jag upp en navigation med länkar till olika delar av hemsidan.-->
                 <ul>
                     <li><a href="index.html">Hem</a></li>
                     <li><a href="ommig.html">Om mig</a></li>
                     <li><a href="portfolio.html">Portfolio</a></li>
                     <li><a href="kontakt.html">Kontakt</a></li>
-                    <li style="float:right"><a class="active" href="#about">About</a></li>
+    
                 </ul>
             </nav>
 
 
-
+            <section> <!-- Här skapar jag upp en sektion i dokumentet -->
             <div class="bodycontent">
-                <h1>
-                    Kontakt</h1><br>
+                
+                <h2> Kontakt</h2><br><!--här ändrar jag huvudrubriken för hemsidan-->
 
                 <p> Petronella.bodzay@chasacademy.se <br>
                     Du hittar mig även på instagram, @Lady.Decadent<br>
-                    Hej så länge!<br>
-                </p> <!-- Här skriver du dina kontkt uppgifter-->
-
+                    Hej så länge!<br> </p> <!-- Här skapar jag upp en paragraf med brödtext-->
             </div>
+        </section>
+
+
+            <h2>Javascript-text</h2> <!-- här manipulerar jag hemsidans DOM träd med en javascriptkod som skapar upp en h2:a med text -->
+            <div id="content" class="content">
+            </div>
+            <script src="js/main.js"></script> <!--här länkar jag in javascriptfilen-->
 
     </div>
 
     </div>
-</body>
+</main>
+</body> <!--Här stäger jag bodyn>-->
 
-</html>
+</html> <!--här stänger jag html dokumentet/ sidans slut-->

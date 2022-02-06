@@ -9,46 +9,57 @@
     <link href="style.css" rel="stylesheet" type="text/css"> <!-- Här hämtar jag in min css-fil till HTML-dokumentet -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@500&family=Montserrat&display=swap" rel="stylesheet">
-</link>
-</meta>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@500&family=Montserrat&display=swap"
+        rel="stylesheet">
+    </link>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </meta>
 </head>
 
-<!-- Här skapar jag en bodytagg och lägger in det visuella innehållet på hemsidan-->
 
-<body>
+
+
+ <!-- Här skapar jag en bodytagg och lägger in det visuella innehållet på hemsidan-->
+ <body>
+    
     <!-- Här skapar jag upp en container med styling i cssför att få en snygg och centrerad layout-->
     <div class="container">
         <div class="header">
-            <h1 class="vitheader">Petronella Bodzay</h1>
-        </div> <header> 
-            
+            <h1 class="vitheader">Petronella Bodzay</h1> <!--här ändrar jag huvudrubriken för hemsidan-->
+        </div>
+        <header>
 
-        <nav> 
-            <ul>
-                <li><a href="index.html">Hem</a></li>
-                <li><a href="ommig.html">Om mig</a></li>
-                <li><a href="portfolio.html">Portfolio</a></li>
-                <li><a href="kontakt.html">Kontakt</a></li>
-                <li style="float:right"><a class="active" href="#about">About</a></li>
-              </ul>
-        </nav>
 
-        
-        <div class="bodycontent">
-            <div class="box2">
-                <h2>Välkommen till min portfolio!</h2> 
-                <h3>  OBS! <br>
-                Sidan är under ombyggnad.</h3>
+            <nav>
+                <!--Här skapar jag upp en navigation med länkar till olika delar av hemsidan.-->
+                <ul>
+                    <li><a href="index.html">Hem</a></li>
+                    <li><a href="ommig.html">Om mig</a></li>
+                    <li><a href="portfolio.html">Portfolio</a></li>
+                    <li><a href="kontakt.html">Kontakt</a></li>
+                </ul>
+            </nav>
+
+            <main> <!--Denna tagg informerar om innehållet som är unikt för denna sida-->
+            <section> <!--- -->
+            <div class="bodycontent">
+                <!--här skapar jag upp en div med namnet bodycontet som utgör basen för hemsidan utseende som tex bakrundsfärg
+                    samt färg på text-->
+                    
+                <h2>Välkommen till min portfolio!</h2> <!--här skriver jag min underordnan huvudrubrik-->
+                <h3> OBS! <br>
+                    Sidan är under ombyggnad.</h3><!--Här skriver jag rubriker för sidan-->
                 <p> Återkom gärna om 2 veckor så att du kan ta del av några av mina fotouppdrag.
                     Du hittar mig annars på instagram, @Lady.Decadent<br>
-                     </p> <!-- skriver du text om sidan-->
+                </p> <!-- skriver du text om sidan-->
             </div>
-            <div class="box2"><img src="https://m.media-amazon.com/images/I/61fQIhg+QSL._AC_SL1000_.jpg"></div>
-
-        </div>
+        </section>
+            <div class="box2">
+                <img src="img/bild14.jpg"></div> <!--Här gör jag en div med en bild, och kan lägga till fler samt ändra i cssfilen-->
 
     </div>
+    </div>
+</main>
 </body>
 
 </html>
