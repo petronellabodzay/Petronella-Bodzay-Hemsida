@@ -27,16 +27,15 @@ body {
         max-height: 100%;
         display: block; 
         max-width: 1200px;
-        border:#111
-      
     }
 
 .container {
   max-width: 1200px;
   margin: auto;
-  }
+  padding: 10px;
+  border: 1px solid #000;
 
-
+}
 
 .header {
   background-color: Black;
@@ -89,21 +88,22 @@ ul {
 	background-color: #111;
   }
 
-.bodycontent {
-  background-color:black;
-  color: white;
-  padding: 20px;
-  max-width: 1200px
+  .bodycontent {
+    background-color:black;
+    color: white;
+    padding: 20px;
+    max-width: 1200;
+    margin: auto;
   
-
- 
 }
 
 
 .box2 {
   display: flex;
   justify-content: center;
-
+  background-color: #000000;
+  margin: auto;
+  padding:100px;
 }
 
 .container2 {
@@ -183,7 +183,7 @@ ul {
 
 
 h1{
-  font: size 48px;
+  font: size 40px;
 }
 
 h2 {
